@@ -34,10 +34,10 @@ setup(
     packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
     include_package_data=True,
     zip_safe=False,
-    test_suite="tests",
-    tests_require=['mock'],
+    test_suite="nose.collector",
+    tests_require=['mock', 'nose'],
     install_requires=[
-      # -*- Extra requirements: -*-
+        # -*- Extra requirements: -*-
     ],
     entry_points="""
     # -*- Entry points: -*-
