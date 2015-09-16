@@ -1,0 +1,225 @@
+# Translations template for PROJECT.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-09-16 17:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.0\n"
+
+#: number.py:55
+msgid "million"
+msgstr "milhão"
+
+#: number.py:55
+msgid "billion"
+msgstr "bilhão"
+
+#: number.py:55
+msgid "trillion"
+msgstr "trilhão"
+
+#: number.py:55
+msgid "quadrillion"
+msgstr "quatrilhões"
+
+#: number.py:56
+msgid "quintillion"
+msgstr "quintilhões"
+
+#: number.py:56
+msgid "sextillion"
+msgstr "seistilhão"
+
+#: number.py:56
+msgid "septillion"
+msgstr "setilhão"
+
+#: number.py:57
+msgid "octillion"
+msgstr "octilhões"
+
+#: number.py:57
+msgid "nonillion"
+msgstr ""
+
+#: number.py:57
+msgid "decillion"
+msgstr ""
+
+#: number.py:57
+msgid "googol"
+msgstr ""
+
+#: number.py:91
+msgid "one"
+msgstr "um"
+
+#: number.py:91
+msgid "two"
+msgstr "dois"
+
+#: number.py:91
+msgid "three"
+msgstr "três"
+
+#: number.py:91
+msgid "four"
+msgstr "quatro"
+
+#: number.py:91
+msgid "five"
+msgstr "cinco"
+
+#: number.py:91
+msgid "six"
+msgstr "seis"
+
+#: number.py:92
+msgid "seven"
+msgstr "sete"
+
+#: number.py:92
+msgid "eight"
+msgstr "oito"
+
+#: number.py:92
+msgid "nine"
+msgstr "nove"
+
+#: time.py:63 time.py:125
+msgid "a moment"
+msgstr "um momento"
+
+#: time.py:65
+msgid "a second"
+msgstr "um segundo"
+
+#: time.py:67
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d segundo"
+msgstr[1] "%d segundos"
+
+#: time.py:69
+msgid "a minute"
+msgstr "um minuto"
+
+#: time.py:72
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minute"
+msgstr[1] "%d minutos"
+
+#: time.py:74
+msgid "an hour"
+msgstr "uma hora"
+
+#: time.py:77
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d hora"
+msgstr[1] "%d horas"
+
+#: time.py:80
+msgid "a day"
+msgstr "um dia"
+
+#: time.py:82 time.py:85
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "dia"
+msgstr[1] "dias"
+
+#: time.py:87
+msgid "a month"
+msgstr "um mês"
+
+#: time.py:89
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d mês"
+msgstr[1] "%d meses"
+
+#: time.py:92
+msgid "a year"
+msgstr "um ano"
+
+#: time.py:94 time.py:102
+#, python-format
+msgid "1 year, %d day"
+msgid_plural "1 year, %d days"
+msgstr[0] "1 ano, %d dia"
+msgstr[1] "1 ano, %d dias"
+
+#: time.py:97
+msgid "1 year, 1 month"
+msgstr "1 ano, 1 mês"
+
+#: time.py:99
+#, python-format
+msgid "1 year, %d month"
+msgid_plural "1 year, %d months"
+msgstr[0] "1 year, %d mês"
+msgstr[1] "1 year, %d meses"
+
+#: time.py:104
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d ano"
+msgstr[1] "%d anos"
+
+#: time.py:122
+#, python-format
+msgid "%s from now"
+msgstr "%s a partir de agora"
+
+#: time.py:122
+#, python-format
+msgid "%s ago"
+msgstr "%s atrás"
+
+#: time.py:126
+msgid "now"
+msgstr "agora"
+
+#: time.py:145
+msgid "today"
+msgstr "hoje"
+
+#: time.py:147
+msgid "tomorrow"
+msgstr "amanhã"
+
+#: time.py:149
+msgid "yesterday"
+msgstr "ontem"
+
+#: time.py:158
+msgid "day"
+msgstr "dia"
+
+#: time.py:160
+msgid "week"
+msgstr "semana"
+
+#: time.py:162
+msgid "month"
+msgstr "mês"
+
