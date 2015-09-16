@@ -4,11 +4,10 @@
 """Time humanizing functions.  These are largely borrowed from Django's
 ``contrib.humanize``."""
 
-import time
 from datetime import datetime, timedelta, date
 from .i18n import ngettext, gettext as _
 
-__all__ = ['naturaldelta', 'naturaltime', 'naturalday', 'naturaldate']
+__all__ = ['naturaldelta', 'naturaltime', 'naturalday', 'naturaldate', 'naturaltimedelta']
 
 def _now():
     return datetime.now()
