@@ -4,7 +4,6 @@
 """Setup script for humanize."""
 
 from setuptools import setup, find_packages
-import sys, os
 import io
 
 version = '0.5.1'

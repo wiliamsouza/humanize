@@ -145,6 +145,10 @@ def naturalday(value, format='%b %d'):
         return _('today')
     elif delta.days == 1:
         return _('tomorrow')
+    elif delta.days == 7:
+        return _('week')
+    elif delta.days == 30:
+        return _('month')
     elif delta.days == -1:
         return _('yesterday')
     return value.strftime(format)
