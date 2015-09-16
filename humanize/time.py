@@ -160,7 +160,7 @@ def naturaltimedelta(delta):
         return _('week')
     elif delta.days == 30:
         return _('month')
-    return _('{} days'.format(value))
+    return ngettext('%d day', '%d days', value) % value
 
 def naturaldate(value):
     """Like naturalday, but will append a year for dates that are a year

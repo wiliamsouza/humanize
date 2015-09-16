@@ -6,7 +6,7 @@
 from setuptools import setup, find_packages
 import io
 
-version = '0.5.2'
+version = '0.5.4'
 
 # some trove classifiers:
 

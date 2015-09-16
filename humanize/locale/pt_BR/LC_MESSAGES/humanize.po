@@ -1,4 +1,4 @@
-# Translations template for PROJECT.
+# Portuguese (Brazil) translations for PROJECT.
 # Copyright (C) 2015 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
@@ -8,12 +8,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-09-16 17:36-0300\n"
+"POT-Creation-Date: 2015-09-16 19:10-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: pt_BR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.0\n"
 
@@ -138,12 +139,12 @@ msgstr[1] "%d horas"
 msgid "a day"
 msgstr "um dia"
 
-#: time.py:82 time.py:85
+#: time.py:82 time.py:85 time.py:163
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] "dia"
-msgstr[1] "dias"
+msgstr[0] "%d dia"
+msgstr[1] "%d dias"
 
 #: time.py:87
 msgid "a month"
@@ -175,8 +176,8 @@ msgstr "1 ano, 1 mês"
 #, python-format
 msgid "1 year, %d month"
 msgid_plural "1 year, %d months"
-msgstr[0] "1 year, %d mês"
-msgstr[1] "1 year, %d meses"
+msgstr[0] "1 ano, %d mês"
+msgstr[1] "1 ano, %d meses"
 
 #: time.py:104
 #, python-format
