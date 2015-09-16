@@ -132,6 +132,7 @@ def naturalday(value, format='%b %d'):
     """For date values that are tomorrow, today or yesterday compared to
     present day returns representing string. Otherwise, returns a string
     formatted according to ``format``."""
+
     try:
         value = date(value.year, value.month, value.day)
     except AttributeError:
@@ -145,13 +146,22 @@ def naturalday(value, format='%b %d'):
         return _('today')
     elif delta.days == 1:
         return _('tomorrow')
+    elif delta.days == -1:
+        return _('yesterday')
+    return value.strftime(format)
+
+def naturaltimedelta(delta):
+    """ Receives a datetime.timedelta(days=<days>)
+
+    Returns a natural string for time delta.
+    """
+    if delta.days == 1:
+        return _('day')
     elif delta.days == 7:
         return _('week')
     elif delta.days == 30:
         return _('month')
-    elif delta.days == -1:
-        return _('yesterday')
-    return value.strftime(format)
+    return _('{} days'.format(value))
 
 def naturaldate(value):
     """Like naturalday, but will append a year for dates that are a year

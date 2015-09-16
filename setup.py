@@ -12,7 +12,7 @@ version = '0.5.1'
 
 
 setup(
-    name='humanize',
+    name='tg-humanize',
     version=version,
     description="python humanize utilities",
     long_description=io.open('README.rst', 'r', encoding="UTF-8").read(),

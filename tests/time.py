@@ -255,8 +255,6 @@ class TimeTestCase(HumanizeTestCase):
     def test_naturalday(self):
         tomorrow = today + one_day
         yesterday = today - one_day
-        week = today + seven_days
-        month = today + thirty_days
         if today.month != 3:
             someday = date(today.year, 3, 5)
             someday_result = 'Mar 05'
@@ -267,13 +265,18 @@ class TimeTestCase(HumanizeTestCase):
         overflowtest = fakedate(120390192341, 2, 2)
         test_list = (today, tomorrow, yesterday, someday, '02/26/1984',
             (date(1982, 6, 27), '%Y.%M.%D'), None, "Not a date at all.",
-            valerrtest, overflowtest, week, month
+            valerrtest, overflowtest
         )
         result_list = ('today', 'tomorrow', 'yesterday', someday_result, '02/26/1984',
             date(1982, 6, 27).strftime('%Y.%M.%D'), None, "Not a date at all.",
-            valerrtest, overflowtest, 'week', 'month'
+            valerrtest, overflowtest
         )
         self.assertManyResults(time.naturalday, test_list, result_list)
+
+    def test_naturaltimedelta(self):
+        test_list = (one_day, seven_days, thirty_days)
+        result_list = ('day', 'week', 'month')
+        self.assertManyResults(time.naturaltimedelta, test_list, result_list)
 
     def test_naturaldate(self):
         tomorrow = today + one_day
