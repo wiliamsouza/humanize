@@ -6,13 +6,13 @@
 from setuptools import setup, find_packages
 import io
 
-version = '0.5.4'
+version = '0.5.5'
 
 # some trove classifiers:
 
 
 setup(
-    name='tg-humanize',
+    name='humanize',
     version=version,
     description="python humanize utilities",
     long_description=io.open('README.rst', 'r', encoding="UTF-8").read(),

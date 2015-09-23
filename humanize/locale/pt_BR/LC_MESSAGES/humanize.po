@@ -223,4 +223,3 @@ msgstr "semana"
 #: time.py:162
 msgid "month"
 msgstr "mês"
-
